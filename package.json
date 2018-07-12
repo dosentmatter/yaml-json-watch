@@ -1,0 +1,22 @@
+{
+  "name": "yaml-json-watch",
+  "version": "0.0.0",
+  "description": "Convert yaml files to json files as they are created or updated",
+  "bin": {
+    "yaml-json-watch": "bin/yaml-json-watch.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dosentmatter/yaml-json-watch.git"
+  },
+  "author": "Kevin Lau",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^2.0.3",
+    "js-yaml": "^3.12.0",
+    "yargs": "^11.0.0"
+  }
+}
